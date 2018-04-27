@@ -34,8 +34,20 @@ namespace pp
 
         }
      }
+     double POWER(int base , int power)
+     {
+       
+       if(power==0)
+       {
+          return 1 ;
+       }
+        else 
+      {int result = base * POWER(base , power-1) ;
+      return result ;}
+     }  
+}
      
-} 
+
 
 
 

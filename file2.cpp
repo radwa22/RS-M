@@ -3,12 +3,13 @@
  int main()
  {   
       
-      pp::number num; 
+     // pp::number num; 
       
-     
-   std::cin >>num.POWER >> num.BASE ;
+     int power , base ;
+   std::cin >>power >> base  ;
+
    double RESULT=0;
-    RESULT=pp::power(num) ;
+    RESULT=pp::POWER(base , power) ;
 
 
  std::cout<<" result="<<RESULT<<std::endl;
